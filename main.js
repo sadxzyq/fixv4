@@ -278,5 +278,5 @@ async function _quickTest() {
 }
 
 _quickTest()
-  .then(() => conn.logger.info('☑️ Quick Test Done'))
+  .then(() => conn.logger.info('☑️ Mencoba analisis source code'))
   .catch(console.error)

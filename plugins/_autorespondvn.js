@@ -79,7 +79,7 @@ let Araa = Arra[Math.floor(Math.random() * Arra.length)]
     }, 1000)
     }
     
-    //Respond Anjay
+   /* //Respond Anjay
 let Anjy = /(anjay|anjyy|an4y)/i
     let isAnj = Anjy.exec(m.text)
     let Anjj = [
@@ -96,9 +96,9 @@ let njy = Anjj[Math.floor(Math.random() * Anjj.length)]
     setTimeout(() => {
     conn.sendFile(m.chat, ajy, '', '', m, true)
     }, 1000)
-    }
+    }*/
     //Respond aman?
-   let aman = /(anjing|anj|ajg|anjnk|anjim|asu|babi|tod|ngentod|ngtd|kontol|memek|mek|tempek|kampang|dancok|cok|su|bbi|ajng|anjnk|tol|kontol|kntl|jing|jng)/i
+  /* let aman = /(anjing|anj|ajg|anjnk|anjim|asu|babi|tod|ngentod|ngtd|kontol|memek|mek|tempek|kampang|dancok|cok|su|bbi|ajng|anjnk|tol|kontol|kntl|jing|jng)/i
     let isam = aman.exec(m.text)
     let amn = [
 '😱'
@@ -114,7 +114,7 @@ let man = amn[Math.floor(Math.random() * amn.length)]
     setTimeout(() => {
     conn.sendFile(m.chat, mmn, '', '', m, true)
     }, 1000)
-    }
+    }*/
         //Respond aman?
    let haalo = /(halo|hlo|hai|hii|hi)/i
     let isha = haalo.exec(m.text)
@@ -134,7 +134,7 @@ let haala = haa[Math.floor(Math.random() * haa.length)]
     }, 1000)
     }
     //Respond p
-   let pe = /(pe)/i
+  /* let pe = /(pe)/i
 let ispi = pe.exec(m.text)
 let pa = [
 '🖕',
@@ -154,9 +154,9 @@ let pep = pa[Math.floor(Math.random() * pa.length)]
         setTimeout(() => {
     conn.sendFile(m.chat, pp, '', '', m, true)
     }, 1000)
-    }
+    }*/
         //respond panggilan 
-       let oy = /(bang|woi|cok|dark|dar|we|wee|cuk|cuy|sat|bott|satrio)/i
+   /*    let oy = /(bang|woi|cok|dark|dar|we|wee|cuk|cuy|sat|bott|satrio)/i
 let isoiy = oy.exec(m.text)
     if (isoiy && !m.fromMe) {
     let oyy = fs.readFileSync('./mp3/oy.mp3')
@@ -168,7 +168,7 @@ let isoiy = oy.exec(m.text)
         setTimeout(() => {
     conn.sendFile(m.chat, oyy, '', '', m, true)
     }, 1000)
-    }
+    }*/
             //Respond yntkts
    let gaktau = /(yntkts|yah gak tau|gak tau|tau)/i
     let istau = gaktau.exec(m.text)
@@ -202,7 +202,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     }, 1000)
     }
                                //Respond apaantuh
-   let paan = /(jadianime)/i
+   /*let paan = /(jadianime)/i
     let isand = paan.exec(m.text)
     if (isand && !m.fromMe) {
     let gpan = fs.readFileSync('./mp3/anime.mp3')
@@ -214,7 +214,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     setTimeout(() => {
     conn.sendFile(m.chat, gpan, '', '', m, true)
     }, 1000)
-    }
+    }*/
    //Respond gak boleh
    let nsfw = /(nsfw|viral|viral1|viral2|viral3|bokep)/i
     let issu = nsfw.exec(m.text)
@@ -272,7 +272,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     }, 1000)
     }
     //Respond nantang
-   let gelud = /(nantang|gelut|gelud)/i
+  /* let gelud = /(nantang|gelut|gelud)/i
     let isahh = gelud.exec(m.text)
     if (isahh && !m.fromMe) {
     let gglud = fs.readFileSync('./mp3/menantang.mp3')
@@ -284,9 +284,9 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     setTimeout(() => {
     conn.sendFile(m.chat, gglud, '', '', m, true)
     }, 1000)
-    }
+    }*/
     //Respond mimpi
-   let mimpimya = /(ngmbek|ngmbk|ngambk|mrh|ututu|tayang|tyg|utu|ngambek|marah)/i
+   /*let mimpimya = /(ngmbek|ngmbk|ngambk|mrh|ututu|tayang|tyg|utu|ngambek|marah)/i
     let ismim = mimpimya.exec(m.text)
     if (ismim && !m.fromMe) {
     let mimi = fs.readFileSync('./mp3/ngambek.mp3')
@@ -298,7 +298,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     setTimeout(() => {
     conn.sendFile(m.chat, mimi, '', '', m, true)
     }, 1000)
-    }
+    }*/
     //Respond apaantuh
    let taaggowner = /(6282285357346)/i
     let isown = taaggowner.exec(m.text)

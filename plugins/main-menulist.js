@@ -52,7 +52,7 @@ ${emot}│☂︎ *Uptime:* %muptime
   header: '「⛱」──「 %category 」───⬣',
   body: `%c2 %cmd %isPremium %islimit`,
   footer: '「𝕏」───────────⬣\n',
-  after: `%c6 \n %c5`,
+  after: `%me %c5`,
 }
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args, usedPrefix, command}) => {
   let imgr = flaaa.getRandom()

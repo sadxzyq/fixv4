@@ -10,7 +10,7 @@ handler.all = async function (m, { isBlocked }) {
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-let regj = /(.jadibotak)/i
+/*let regj = /(.jadibotak)/i
     let isJadibot = regj.exec(m.text)
     let jadbot = [
 '🤖',
@@ -28,7 +28,7 @@ let jadibot = jadbot[Math.floor(Math.random() * jadbot.length)]
         conn.reply(m.chat, `mau jadibot? Ketik .sewa ${jadibot}`, m)
     }, 1000)
     }
-
+*/
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
 /* - - - - - - - Ini autoresponder - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
@@ -51,7 +51,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
           key: m.key,
         }})
    setTimeout(() => {
-        conn.reply(m.chat, `Ngapain TOD :V`, m)
+        conn.reply(m.chat, `wait`, m)
     }, 1000)
     }
     
@@ -59,7 +59,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
 /* - - - - - - - Ini autoresponder by arie - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
 
-    let regc = /(pe)/i
+   /* let regc = /(pe)/i
     let isSayangKamu = regc.exec(m.text)
     if (isSayangKamu && !m.fromMe) {
     conn.sendMessage(m.chat, {
@@ -71,7 +71,7 @@ let cintakamuh = cinmu[Math.floor(Math.random() * cinmu.length)]
         conn.reply(m.chat, `Pa pe pa pe Gw tandai muka lu 🗿🪦`, m)
     }, 1000)
     }
-    
+    */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - -  - - - - - - - - */
 /* - - - - - - - Ini autoresponder by wh mods dev - - - - - - - */
 /* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */

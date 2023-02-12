@@ -187,7 +187,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     conn.sendFile(m.chat, ggktau, '', '', m, true)
     }, 1000)
     }
-                //Respond anjingngejar
+       /*         //Respond anjingngejar
    let anjingngejar = /(anjgg|goblok|anjing|ngejar)/i
     let isanjinglah = anjingngejar.exec(m.text)
     if (isanjinglah && !m.fromMe) {
@@ -200,7 +200,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     setTimeout(() => {
     conn.sendFile(m.chat, gpnyek, '', '', m, true)
     }, 1000)
-    }
+    }*/
                                //Respond apaantuh
    /*let paan = /(jadianime)/i
     let isand = paan.exec(m.text)
@@ -229,7 +229,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     conn.sendFile(m.chat, sange, '', '', m, true)
     }, 1000)
     }
-       //Respond owner
+      /* //Respond owner
    let Owen = /(owner)/i
     let iswen = Owen.exec(m.text)
     if (iswen && !m.fromMe) {
@@ -242,7 +242,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
         setTimeout(() => {
     conn.sendFile(m.chat, owwn, '', '', m, true)
     }, 1000)
-    }
+    }*/
        //Respond sc
    let esce = /(sc)/i
     let isce = esce.exec(m.text)
@@ -313,7 +313,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     conn.sendFile(m.chat, gowny, '', '', m, true)
     }, 1000)
     }
-    //Respond woah
+ /*   //Respond woah
    let krn = /(keren|kren|kern|mntap|mntp|good|nc)/i
     let iskren = krn.exec(m.text)
     if (iskren && !m.fromMe) {
@@ -328,7 +328,7 @@ let gktau = gk[Math.floor(Math.random() * gk.length)]
     }, 1000)
     }
 } 
-
+*/
 handler.limit = false
 export default handler
  function pickRandom(list) {
